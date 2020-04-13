@@ -77,15 +77,15 @@ body {
 }
 
 .size-s {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 .size-l {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .size-xl {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .justify {
@@ -131,12 +131,12 @@ header {
     left: 0;
     width: 30%;
     height: 75%;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     letter-spacing: -1px;
     line-height: 1;
 
     .beta {
-      font-size: 0.4em;
+      font-size: 0.4rem;
     }
 
     img {
@@ -149,7 +149,7 @@ header {
     }
 
     .text-logo {
-      font-size: 1.2em;
+      font-size: 1.2rem;
       font-weight: 700;
       color: $dark-text-color;
     }
@@ -163,7 +163,7 @@ header {
     cursor: pointer;
 
     .link {
-      font-size: 0.9em;
+      font-size: 0.9rem;
       padding: 4px;
       margin: 0px 10px;
       color: $text-color;
@@ -308,12 +308,12 @@ h5.h6 {
   .far,
   .fab {
     margin-right: 15px !important;
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   font-weight: 700;
   padding: 5px;
   margin: 5px;
@@ -324,7 +324,7 @@ p {
   font-family: $secondary-font;
   font-weight: 400;
   color: $text-color;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   line-height: 1.75;
   padding: 5px;
   margin: 10px 5px;
@@ -369,7 +369,7 @@ button {
   font-family: $primary-font;
   color: #fff;
   border-radius: 5px;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   font-weight: 500;
   cursor: pointer;
   z-index: 1;
@@ -487,7 +487,7 @@ hr.color-solid {
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 1.75rem;
   color: $dark-text-color;
   margin: 5px;
   padding: 5px;
@@ -506,7 +506,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   color: $dark-text-color;
   margin: 5px;
   padding: 5px;
@@ -522,18 +522,18 @@ h6 {
 }
 
 h4 {
-  font-size: 1.15em;
+  font-size: 1.15rem;
   color: $text-color;
 }
 
 h5 {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-weight: 700;
   color: $text-color;
 }
 
 h6 {
-  font-size: 1em;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 300;
@@ -615,12 +615,12 @@ h6 {
         left: 50%;
         transform: translate(-50%, -50%);
         color: $secondary-color;
-        font-size: 2.5em;
+        font-size: 2.5rem;
       }
     }
 
     .title {
-      font-size: 1em;
+      font-size: 1rem;
       color: $dark-text-color;
       width: 100%;
       font-weight: 600;
@@ -628,7 +628,7 @@ h6 {
     }
 
     .info {
-      font-size: 0.9em;
+      font-size: 0.9rem;
       line-height: 1.75;
       color: $text-color;
       width: 100%;
@@ -639,11 +639,11 @@ h6 {
     width: calc(50% - 30px);
 
     .title {
-      font-size: 1.2em;
+      font-size: 1.2rem;
     }
 
     .info {
-      font-size: 1em;
+      font-size: 1rem;
     }
   }
 }
@@ -653,14 +653,14 @@ form {
   margin: 5px;
 
   .form-title {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: $dark-text-color;
     margin-bottom: 40px;
     font-weight: 700;
   }
 
   .form-text {
-    font-size: 1em;
+    font-size: 1rem;
     color: $text-color;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -676,7 +676,7 @@ form {
 input,
 textarea {
   border-radius: 4px;
-  font-size: 1em;
+  font-size: 1rem;
   padding: 10px;
   margin: 5px 0px;
   color: $text-color;
@@ -706,7 +706,7 @@ input[type="submit"] {
   background: $button-color;
   color: #fff;
   border: none;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   padding: 18px 25px;
   margin: 10px 0px;
   font-weight: 500;
@@ -728,7 +728,7 @@ button.tooltip:before {
   top: calc(100% + 15px);
   left: 50%;
   //max-width: 100px;
-  font-size: 0.75em;
+  font-size: 0.75rem;
   font-weight: 400;
   padding: 8px 12px;
   background: rgba(0, 0, 0, 0.7);
@@ -763,14 +763,14 @@ footer {
       margin: 10px 20px;
 
       .head {
-        font-size: 1em;
+        font-size: 1rem;
         color: $dark-text-color;
         font-weight: 600;
         margin-bottom: 10px;
       }
 
       .link {
-        font-size: 0.9em;
+        font-size: 0.9rem;
         color: $text-color;
         font-weight: 500;
         margin: 5px 0px;
@@ -785,7 +785,7 @@ footer {
   }
 
   .madeby {
-    font-size: 0.7em;
+    font-size: 0.7rem;
     font-weight: 500;
 
     b {
