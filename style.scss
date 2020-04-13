@@ -5,7 +5,7 @@ $dark-text-color: #222931;
 $text-color: #58636d;
 $placeholder: #f4f9ff;
 $tile-placeholder: #dfe4ea;
-$border-gray: #ced6e0;
+$border-gray: #dbe3ec;
 
 $primary-color: #11243a;
 $secondary-color: #2089f5;
@@ -168,6 +168,7 @@ header {
       margin: 0px 10px;
       color: $text-color;
       font-weight: 500;
+      -webkit-appearance: none;
       @include transition(0.5s);
     }
 
@@ -652,16 +653,17 @@ form {
   margin: 5px;
 
   .form-title {
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: $dark-text-color;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     font-weight: 700;
   }
 
   .form-text {
     font-size: 1em;
     color: $text-color;
-    margin: 5px 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-weight: 500;
   }
 
@@ -705,7 +707,7 @@ input[type="submit"] {
   color: #fff;
   border: none;
   font-size: 0.9em;
-  padding: 12px 25px;
+  padding: 18px 25px;
   margin: 10px 0px;
   font-weight: 500;
   cursor: pointer;
@@ -858,7 +860,16 @@ h5.nospace {
         width: 100%;
         padding: 15px;
         margin: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 3px solid transparent;
+      }
+
+      .link.active.underline {
+        background-color: $secondary-color;
+        color: #fff;
+      }
+
+      .link.active {
+        width: 100%;
       }
 
       .link.filled {
